@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.titles h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: -100px;
+    margin-bottom: -50px;
+    font-size: 35px;
+}
+
+.titles h2{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: -100px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+
+.titles h1::after{
+    content:"";
+    weight: 4px;
+    width: 230px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+}
+
+.services{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    margin-left: 15px;
+    background: linear-gradient(rgb(226, 236, 250), rgb(151, 235, 230));
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.card .icon{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-content: center;
+    margin-left: -10px;
+}
+
+.card h2{
+    position:relative;
+    text-align: center;
+    font-size: 25px;
+    color:rgb(47, 48, 49);
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.card p{
+    font-size: 17px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #5e5e5e;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.buttons{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(2, 25, 29);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.buttons .popup{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(2, 25, 29);
+    padding: 50px 50px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.buttons:hover{
+    background-color: #738cfab4;
+    transition: 0.4% ease;
+}
